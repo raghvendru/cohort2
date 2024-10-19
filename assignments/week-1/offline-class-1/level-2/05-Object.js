@@ -11,6 +11,7 @@ function objectMethods(obj) {
   let entries = Object.entries(obj);
   console.log("After Object.entries():", entries);
 
+  //present or not
   let hasProp = obj.hasOwnProperty("property");
   console.log("After hasOwnProperty():", hasProp);
 
