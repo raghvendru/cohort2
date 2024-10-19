@@ -26,14 +26,14 @@ function findLastIndexOf(str, target) {
 }
 findLastIndexOf("Hello World World", "World");
 
-// slice
+// slice fom start--end ex:raghavendra (2,5)-->gha(exclude last)
 function getSlice(str, start, end) {
   console.log("Original String:", str);
   console.log("After slice:", str.slice(start, end));
 }
 getSlice("Hello World", 0, 5);
-
-// substring
+ 
+// substring from start --end index (2,5)-->gha
 function getSubstring(str, start, end) {
   console.log("Original String:", str);
   console.log("After substring:", str.substring(start, end));
@@ -47,14 +47,14 @@ function replaceString(str, target, replacement) {
 }
 replaceString("Hello World", "World", "JavaScript");
 
-// split
+// split "RAGHU HI"==>[RAGHU,HI]
 function splitString(str, separator) {
   console.log("Original String:", str);
   console.log("After split:", str.split(separator));
 }
 splitString("Hello World", " ");
 
-// trim
+// trim--REMOVES SPACE BEGNING N END
 function trimString(str) {
   console.log("Original String:", str);
   console.log("After trim:", str.trim());
